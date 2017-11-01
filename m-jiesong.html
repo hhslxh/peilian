@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>一起练陪练</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0,minimal-ui" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="yes" name="apple-touch-fullscreen" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta content="email=no" name="format-detection" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <script src="js/jquery-2.2.3.min.js" type="text/javascript"></script>
+    <style>
+        .fanwei {
+            display: block;
+            min-height: 100px;
+        }
+        .fanwei ul{position: relative;}
+        .fanwei ul li{
+            display: inline-block;}
+        .fanwei ul li:first-child{
+            position: absolute;
+            text-align: center;top: calc(50% - 15px);
+            line-height:30px;
+            height:inherit;
+            width:130px;
+            font-size: .8rem;
+            background-color: #f0f0f4;}
+        .fanwei ul li:last-child{
+             width: calc(100% - 144px);
+            padding: 10px 0 10px 10px;margin-left: 135px;
+            font-size:.7rem;line-height: 25px;
+            background-color: #fff;}
+        .a-btnbtc{
+            margin-top: -4px;
+            padding-top:15px;
+            padding-bottom:15px;
+            background-color: #fff;}
+        .xue-address{margin-top: 10px;
+            background-color: #fff;}
+        .xue-address ul{position: relative;height: 56px;
+            line-height:56px;
+            font-size:.7rem;}
+        .xue-address ul li:last-child{
+            width:160px;}
+        .xue-address ul li{
+            display: inline-block;}
+        .xue-address ul li:first-child{
+            width:calc(100% - 170px);}
+        .xue-address p{
+            margin-left: 15px;
+            display: inline-block;}
+        .xue-address input[type=text]{
+            display: inline-block;
+            font-size: .7rem;
+        }
+        .xue-address input[type=text]::placeholder{
+            color: #c4c3ca;}
+    </style>
+</head>
+<body>
+<header>
+    <div class="back" onclick="history.back()"></div>
+    <div class="title">绑定手机号</div>
+    <div class="home"><a href="">个人信息</a></div>
+</header>
+<div class="main pb-60">
+    <div class="fanwei">
+        <ul>
+            <li>接送范围</li>
+            <li>1、最远北京市五环<br/>
+                2、房山地区不进山<br/>
+                3、通州不去燕郊。<br/></li>
+        </ul>
+    </div>
+    <div class="detail-btn a-btnbtc">
+        <a href="" class="bgc-green">点击获取我现在的位置</a>
+    </div>
+    <div class="xue-address">
+        <ul>
+            <li><p>接送点：</p> <input type="text" placeholder="请输入"></li>
+            <li>
+                <div class="">
+                    <a href="" class="linebtn-a btn-green">确定</a>
+                </div>
+            </li>
+        </ul>
+        <ul>
+            <li><p>5号线大屯路东</p> </li>
+            <li>
+                <div class="">
+                    <a href="" class="linebtn-a btn-gray">取消</a>
+                </div>
+            </li>
+        </ul>
+        <ul>
+            <li><p>5号线大屯路东</p> </li>
+            <li>
+                <div class="">
+                    <a href="" class="linebtn-a btn-gray">取消</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <nav>
+        <ul class="">
+            <li class="index"><a href="">首页</a></li>
+            <li class="order"><a href="">购卡</a></li>
+            <div class="tel"> <a href=""><img src="img/tel.png" alt="">联系客服</a></div>
+            <li class="buy"><a href="">预约</a></li>
+            <li class="my"><a href="">我的</a></li>
+        </ul>
+    </nav>
+
+</div>
+
+</body>
+</html>
